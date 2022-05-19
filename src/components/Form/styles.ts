@@ -1,0 +1,49 @@
+import { StyleSheet } from 'react-native';
+import { theme } from '../../theme';
+
+export const styles = StyleSheet.create({
+    container: {
+        paddingHorizontal: 24,
+        alignItems: 'center'
+    },
+    headers: {
+        flexDirection: 'row',
+        marginVertical: 16
+    },
+    titleContainer: {
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingRight: 24
+    },
+    titleText: {
+        fontSize: 20,
+        color: theme.colors.text_primary,
+        fontFamily: theme.fonts.medium
+    },
+    image: {
+        width: 24,
+        height: 24,
+        marginRight: 14
+    },
+    input: {
+        height: 112,
+        paddingTop: 12,
+        paddingBottom: 16,
+        paddingLeft: 16,
+        paddingRight: 16,
+        marginBottom: 12,
+        borderRadius: 4,
+        borderWidth: 1,
+        width: '100%',
+        lineHeight: 20,
+        borderColor: theme.colors.stroke,
+        color: theme.colors.text_primary,
+        fontFamily: theme.fonts.regular
+    },
+    footer: {
+        flexDirection: 'row',
+        marginBottom: 16
+    }
+});
